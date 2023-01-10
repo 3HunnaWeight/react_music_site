@@ -25,14 +25,14 @@ import All from "./components/All";
 function App() {
   return (
     <div className="App"> 
-    {/*     <BrowserRouter>
+        <BrowserRouter>
           <Routes>
             <Route path="/" element={<All/>}/>
             <Route path="/send" element={<Send/>}/>
             <Route path="/contact" element={<Contact/>}/>
           </Routes>
-        </BrowserRouter> */}
-        <All/>
+        </BrowserRouter>
+        
     </div>
   
     
