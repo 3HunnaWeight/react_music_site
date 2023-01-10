@@ -10,12 +10,14 @@ mainStyle=main
   return (
     <header className='header'>
   
-        <div className='mainPage'onClick={()=>{getMainStyle(mainStyle)}}>
-        <Logo
-        getStyleMain={getMain}
-      
-        />
+        <div className='mainPageWrapper'>
+          <div className='mainPage'onClick={()=>{getMainStyle(mainStyle)}}>
+            <Logo
+               getStyleMain={getMain}
+            />
           </div>
+        </div>
+
         <nav>
         <div className='nav__bar'>
             <div className='link' onClick={()=>getStyle(style="Drill")} >Drill</div>
