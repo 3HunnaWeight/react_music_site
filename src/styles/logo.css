@@ -1,10 +1,9 @@
 .logo{
-    text-align: center;
     font-size: xxx-large;
     margin-bottom: 5%;
-
+    width: auto;
+    display: inline-block;
 }
 .logo a{
     display: inline-block;
-
 }
