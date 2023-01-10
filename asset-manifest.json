@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_music_site/static/css/main.c781412b.css",
-    "main.js": "/react_music_site/static/js/main.af795d1f.js",
+    "main.css": "/react_music_site/static/css/main.b00bfbff.css",
+    "main.js": "/react_music_site/static/js/main.fb53755c.js",
     "static/media/2plug.mp3": "/react_music_site/static/media/2plug.547836c8fe2fa1c1c74f.mp3",
     "static/media/detroit5.mp3": "/react_music_site/static/media/detroit5.a055d82347761e5261c1.mp3",
     "static/media/drill4.mp3": "/react_music_site/static/media/drill4.209cd0697a792e5e6caf.mp3",
@@ -37,11 +37,11 @@
     "static/media/inst.png": "/react_music_site/static/media/inst.b79433a6d7925494f44f.png",
     "static/media/vk.png": "/react_music_site/static/media/vk.33ed0b7af35a111c4705.png",
     "index.html": "/react_music_site/index.html",
-    "main.c781412b.css.map": "/react_music_site/static/css/main.c781412b.css.map",
-    "main.af795d1f.js.map": "/react_music_site/static/js/main.af795d1f.js.map"
+    "main.b00bfbff.css.map": "/react_music_site/static/css/main.b00bfbff.css.map",
+    "main.fb53755c.js.map": "/react_music_site/static/js/main.fb53755c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c781412b.css",
-    "static/js/main.af795d1f.js"
+    "static/css/main.b00bfbff.css",
+    "static/js/main.fb53755c.js"
   ]
 }
