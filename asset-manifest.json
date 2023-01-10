@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_music_site/static/css/main.528dff9a.css",
-    "main.js": "/react_music_site/static/js/main.e3675198.js",
+    "main.js": "/react_music_site/static/js/main.a97ba6b3.js",
     "static/media/2plug.mp3": "/react_music_site/static/media/2plug.547836c8fe2fa1c1c74f.mp3",
     "static/media/detroit5.mp3": "/react_music_site/static/media/detroit5.a055d82347761e5261c1.mp3",
     "static/media/drill4.mp3": "/react_music_site/static/media/drill4.209cd0697a792e5e6caf.mp3",
@@ -38,10 +38,10 @@
     "static/media/vk.png": "/react_music_site/static/media/vk.33ed0b7af35a111c4705.png",
     "index.html": "/react_music_site/index.html",
     "main.528dff9a.css.map": "/react_music_site/static/css/main.528dff9a.css.map",
-    "main.e3675198.js.map": "/react_music_site/static/js/main.e3675198.js.map"
+    "main.a97ba6b3.js.map": "/react_music_site/static/js/main.a97ba6b3.js.map"
   },
   "entrypoints": [
     "static/css/main.528dff9a.css",
-    "static/js/main.e3675198.js"
+    "static/js/main.a97ba6b3.js"
   ]
 }
