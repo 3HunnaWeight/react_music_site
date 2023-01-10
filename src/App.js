@@ -27,7 +27,7 @@ function App() {
     <div className="App"> 
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<All/>}/>
+            <Route path="/react_music_site" element={<All/>}/>
             <Route path="/send" element={<Send/>}/>
             <Route path="/contact" element={<Contact/>}/>
           </Routes>
