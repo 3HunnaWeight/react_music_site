@@ -1,0 +1,97 @@
+.control{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+.player{
+width: 304px;
+height: 40px;
+opacity: 0.6;
+margin: auto;
+border-radius: 20px;
+padding: 1px;
+display: flex;
+}
+.play{
+width: 50px;
+height: 100%;
+background-color: black;
+border-radius: 20px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right:5px ;
+cursor: pointer;
+
+}
+.nameOfSong{
+    display: flex;
+    height: 20px;
+    width: 200px;
+    border-radius: 20px;
+    justify-content: center;
+    color: white;
+margin-bottom:5px ;
+}
+.stop{
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:5px ;
+    cursor: pointer;
+}
+.barcont{
+    display: flex;
+   border-radius: 20px;
+    height: 10px;
+    width: 100%;
+    border: 1px solid purple;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.bar{
+    display: flex;
+    border-radius: 20px;
+     height: 8px;
+     background-color: black;
+     cursor: pointer;
+}
+.nameOfsing{
+    color:white;
+    margin-left: 20px;
+}
+.containterSong{
+    display: flex;
+    
+    align-items: center;
+}
+.volume{
+width: auto;
+height: 100%;
+color: white;
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-left:15px ;
+justify-content: space-around;
+}
+.plus{
+cursor: pointer;
+font-size: 25px;
+-webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.minus{
+   cursor: pointer;
+   font-size: 14px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}

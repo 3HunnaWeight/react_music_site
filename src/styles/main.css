@@ -1,0 +1,15 @@
+.whole__music{
+width: 300px;
+margin: auto;
+height: 300px;
+overflow-y: auto;
+overflow-x: hidden;
+box-sizing: border-box;
+scrollbar-width: none;
+}
+.muisic__wrapper{
+    margin-bottom: 6%;
+}
+.whole__music::-webkit-scrollbar {
+    display: none;
+  }
