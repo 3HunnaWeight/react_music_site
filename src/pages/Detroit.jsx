@@ -44,9 +44,6 @@ export default function Detroit({sendLinkAndName}) {
           name="fourth Detroit"
           getLinkAndName={getLinkAndName}
           />
-
-          <div className="right"><img src={require('../images/стакан.jpg')} alt=""/></div>
-          <div className="left"><img src={require('../images/стакан1.jpg')} alt=""/></div>
     </main>
   )
 }

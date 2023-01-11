@@ -75,8 +75,6 @@ export default function Main({sendLinkAndName}) {
           getLinkAndName={getLinkAndName}
           />
     </div>
-          <div className="right"><img src={require('../images/стакан.jpg')} alt=""/></div>
-          <div className="left"><img src={require('../images/стакан1.jpg')} alt=""/></div>
     </main>
   )
 }

@@ -22,6 +22,7 @@ import "./styles/contact.css"
 import Send from "./links/Send";
 import { BrowserRouter, Route,Routes, } from "react-router-dom";
 import All from "./components/All";
+import Cups from "./components/Cups";
 function App() {
   return (
     <div className="App"> 
@@ -32,7 +33,7 @@ function App() {
             <Route path="/contact" element={<Contact/>}/>
           </Routes>
         </BrowserRouter>
-        
+        <Cups/>
     </div>
   
     

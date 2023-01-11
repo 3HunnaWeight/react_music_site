@@ -24,8 +24,6 @@ export default function Contact() {
             <button  id = "submit" type="submit"  name="formSubmit">Отправить</button>
         </form>
         </div>
-        <div className="right"><img src={require('../images/стакан.jpg')} alt=""/></div>
-          <div className="left"><img src={require('../images/стакан1.jpg')} alt=""/></div>
           <Footer/>
           
     </div>

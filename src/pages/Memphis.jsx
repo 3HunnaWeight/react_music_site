@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import Music from '../components/Music'
 import Player from '../components/Player'
 import { useState } from 'react'
+import Cups from '../components/Cups'
 export default function Memphis({sendLinkAndName}) {
   const getLinkAndName=(link,name)=>{
     setName(name)
@@ -39,8 +40,6 @@ export default function Memphis({sendLinkAndName}) {
           name="fourth Memphis"
           getLinkAndName={getLinkAndName}
           />
-          <div className="right"><img src={require('../images/стакан.jpg')} alt=""/></div>
-          <div className="left"><img src={require('../images/стакан1.jpg')} alt=""/></div>
     </main>
   )
 }
