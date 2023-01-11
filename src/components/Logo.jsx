@@ -5,7 +5,7 @@ export default function Logo({getStyleMain,send}) {
   return (
     <div className='logoWrapper'>
       <div className='logo' onClick={()=>{getStyleMain(main="Main")}}>
-          <Link to="/react_music_site">Beat st🥶re</Link>
+          <Link to="/react_music_site">Beat st&#129398;re</Link>
       </div>
     </div>
   )
