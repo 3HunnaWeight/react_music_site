@@ -22,10 +22,11 @@ export default function All() {
         setName(name)
         setLink(link)
        }
-
+       
        const [link,setLink] = useState()
        const [name,setName] = useState()
        
+      
       let page 
       
       switch (style) {
