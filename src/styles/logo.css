@@ -7,3 +7,7 @@
 .logo a{
     display: inline-block;
 }
+.logoWrapper{
+    width: 100%;
+    text-align: center;
+}
