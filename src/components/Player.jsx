@@ -40,6 +40,7 @@ function progress(e){
   const changeName =()=>{
     setCurrentName(props.name)
   }
+
   const [isPlay,setIsPlay] = useState(true)
   const conditionFalse=()=>{
       setIsPlay(false)
@@ -63,6 +64,14 @@ const volumeControlMinus=()=>{
   }
 }
 
+const[savedName,setSavedName]=useState()
+useEffect(() => {
+  if(currentName!==undefined){
+    setSavedName(currentName)
+  }
+})
+
+
 return (
     
     <div className='musicPlayer'>
@@ -73,7 +82,7 @@ return (
         }
           <div className="control">
                <div className="nameOfSong">
-                   {props.name||currentName}
+                   {props.name||currentName||savedName}
                </div>
                <div className="barcont" ref={containerBar}>
                    <div className="bar" ref={bar}>
